@@ -3,6 +3,7 @@ import { Analytics } from "@/app/components/Analytics";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://psparkle.com"),
   title: {
     default: "守口市のボイトレならP.S.parkle｜初心者・子ども・カラオケ対応",
     template: "%s｜P.S.parkle",
@@ -25,6 +26,15 @@ export const metadata: Metadata = {
     title: "守口市のボイトレならP.S.parkle",
     description:
       "初心者・子ども・カラオケ上達に。レッスン前後の変化を一緒に確認する60分の個別ボイトレ。",
+    url: "https://psparkle.com/",
+    images: [
+      {
+        url: "/karaoke-lesson.webp",
+        width: 1448,
+        height: 1086,
+        alt: "守口市のボイトレ P.S.parkle",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -34,6 +44,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  alternates: {
+    canonical: "/",
   },
   icons: {
     icon: "/favicon.svg",

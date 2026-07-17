@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Keep one canonical public URL for SEO and secure all traffic.
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.psparkle\.com$ [NC]
+RewriteRule ^ https://psparkle.com%{REQUEST_URI} [R=301,L,NE]
