@@ -1,4 +1,6 @@
 :root {
+  /* Cache-busting release marker: keeps restored styles distinct from the prior build. */
+  --styles-release: "20260717-restore-1";
   --navy: #10213f;
   --navy-2: #18345f;
   --navy-3: #29486e;
