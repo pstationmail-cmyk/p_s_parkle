@@ -28,6 +28,30 @@ export function SiteHeader() {
           <span className="line-dot" aria-hidden="true">LINE</span>
           無料体験を相談
         </TrackedLink>
+
+        <details className="mobile-menu">
+          <summary aria-label="メニューを開く">
+            <span />
+            <span />
+            <span />
+          </summary>
+          <nav className="mobile-menu-panel" aria-label="モバイルメニュー">
+            <p>MENU</p>
+            {navItems.map((item) => (
+              <Link href={item.href} key={item.href}>
+                {item.label}<span aria-hidden="true">→</span>
+              </Link>
+            ))}
+            <TrackedLink
+              href={LINE_URL}
+              eventName="line_click"
+              location="mobile_menu"
+              className="button button-line mobile-menu-cta"
+            >
+              LINEで無料体験を相談
+            </TrackedLink>
+          </nav>
+        </details>
       </div>
     </header>
   );
