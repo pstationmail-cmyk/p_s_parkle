@@ -223,7 +223,7 @@ export default function Home() {
               <article className="result-card result-card-secondary">
                 <span className="result-tag">受講実績</span>
                 <p>カラオケ採点</p>
-                <div className="score-change"><span>70<small>点程度</small></span><i>→</i><strong>88<small>点</small></strong></div>
+                <div className="score-change"><span>78<small>点</small></span><i>→</i><strong>88<small>点</small></strong></div>
                 <div className="result-meter"><span /></div>
               </article>
               <p className="result-disclaimer">※掲載している内容は実際の変化の一例です。点数アップや特定の成果を保証するものではありません。</p>
