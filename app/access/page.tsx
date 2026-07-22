@@ -51,7 +51,7 @@ export default function AccessPage() {
             <div className="access-card-grid">
               <article><span>最寄り</span><h3>京阪・守口市駅</h3><p>守口市駅周辺を中心に、ご希望に合う会場をご案内します。</p></article>
               <article><span>対応範囲</span><h3>守口市内全域</h3><p>守口市内であれば、特定の対応エリアは設けていません。</p></article>
-              <article><span>基本時間</span><h3>10:00〜17:00</h3><p>原則毎日対応。18:00〜20:00は埋まりやすいため事前相談となります。</p></article>
+              <article><span>対応時間</span><h3>10:00〜20:00</h3><p>原則毎日対応。18:00〜20:00は埋まりやすいため事前相談となります。</p></article>
             </div>
           </div>
         </section>

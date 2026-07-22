@@ -306,7 +306,7 @@ export default function Home() {
                 <div><dt>最寄り駅</dt><dd>京阪・守口市駅</dd></div>
                 <div><dt>対応エリア</dt><dd>守口市内全域</dd></div>
                 <div><dt>対応日</dt><dd>原則毎日</dd></div>
-                <div><dt>基本時間</dt><dd>10:00〜17:00</dd></div>
+                <div><dt>対応時間</dt><dd>10:00〜20:00</dd></div>
                 <div><dt>夜の時間</dt><dd>18:00〜20:00は事前相談</dd></div>
                 <div><dt>オンライン</dt><dd>Zoom／スマホ受講可能</dd></div>
               </dl>
