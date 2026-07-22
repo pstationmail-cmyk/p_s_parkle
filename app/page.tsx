@@ -285,14 +285,12 @@ export default function Home() {
 
         <section className="section location" id="access">
           <div className="container location-grid">
-            <div className="location-map">
-              <iframe
-                title="守口市駅と大日駅のGoogleマップ"
-                src="https://www.google.com/maps/dir/?api=1&origin=%E5%AE%88%E5%8F%A3%E5%B8%82%E9%A7%85&destination=%E5%A4%A7%E6%97%A5%E9%A7%85&output=embed"
-                loading="lazy"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              />
+            <div className="location-map" aria-hidden="true">
+              <div className="map-lines" />
+              <span className="map-pin map-pin-main"><i>●</i>守口市駅</span>
+              <span className="map-pin map-pin-dainichi"><i>●</i>大日駅</span>
+              <span className="map-pin map-pin-sub">ご希望の会場</span>
+              <div className="map-caption">守口市内全域に対応</div>
             </div>
             <div className="location-copy">
               <p className="eyebrow">MORIGUCHI & ONLINE</p>
