@@ -288,6 +288,7 @@ export default function Home() {
             <div className="location-map" aria-hidden="true">
               <div className="map-lines" />
               <span className="map-pin map-pin-main"><i>●</i>守口市駅</span>
+              <span className="map-pin map-pin-dainichi"><i>●</i>大日駅</span>
               <span className="map-pin map-pin-sub">ご希望の会場</span>
               <div className="map-caption">守口市内全域に対応</div>
             </div>
