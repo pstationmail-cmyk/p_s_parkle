@@ -285,12 +285,16 @@ export default function Home() {
 
         <section className="section location" id="access">
           <div className="container location-grid">
-            <div className="location-map" aria-hidden="true">
-              <div className="map-lines" />
-              <span className="map-pin map-pin-main"><i>●</i>守口市駅</span>
-              <span className="map-pin map-pin-dainichi"><i>●</i>大日駅</span>
-              <span className="map-pin map-pin-sub">ご希望の会場</span>
-              <div className="map-caption">守口市内全域に対応</div>
+            <div className="location-map">
+              <iframe
+                title="京阪・守口市駅周辺のGoogleマップ"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6557.370239197822!2d135.5559443618857!3d34.73833059931661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e19d6e62fec5%3A0x4da3524deb3dc7a2!2z5a6I5Y-j6aeF!5e0!3m2!1sja!2sjp!4v1784707795114!5m2!1sja!2sjp"
+                width="600"
+                height="450"
+                loading="lazy"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
             </div>
             <div className="location-copy">
               <p className="eyebrow">MORIGUCHI & ONLINE</p>
