@@ -1314,6 +1314,14 @@ summary {
   box-shadow: var(--shadow-sm);
 }
 
+.location-map iframe {
+  display: block;
+  width: 100%;
+  min-height: inherit;
+  height: 100%;
+  border: 0;
+}
+
 .map-lines {
   position: absolute;
   inset: -20%;
@@ -1345,20 +1353,6 @@ summary {
   margin-right: 7px;
   color: var(--coral);
   font-size: 19px;
-  font-style: normal;
-  vertical-align: middle;
-}
-
-.map-pin-dainichi {
-  top: 59%;
-  left: 16%;
-  border: 1px solid rgba(240, 111, 92, 0.18);
-}
-
-.map-pin-dainichi i {
-  margin-right: 7px;
-  color: var(--coral);
-  font-size: 17px;
   font-style: normal;
   vertical-align: middle;
 }
