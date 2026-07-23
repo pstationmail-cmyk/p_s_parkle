@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "料金・無料体験｜入会金なし・月1回6,500円から",
   description:
     "守口市P.S.parkleのボイトレ料金。60分×月1回6,500円、月2回12,000円、月4回20,000円。入会金なし・対面会場費込み。無料体験受付中。",
+  alternates: { canonical: "/price/" },
 };
 
 export default function PricePage() {

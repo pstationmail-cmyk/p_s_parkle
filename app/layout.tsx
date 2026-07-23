@@ -57,6 +57,37 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://psparkle.com/#organization",
+      name: "P.S.parkle",
+      url: "https://psparkle.com/",
+      logo: "https://psparkle.com/psparkle-logo.png",
+      areaServed: { "@type": "City", name: "守口市" },
+      founder: { "@id": "https://psparkle.com/#teacher" },
+    },
+    {
+      "@type": "Person",
+      "@id": "https://psparkle.com/#teacher",
+      name: "谷口剛気",
+      jobTitle: "ボイストレーナー・楽曲制作者",
+      image: "https://psparkle.com/teacher-profile.webp",
+      worksFor: { "@id": "https://psparkle.com/#organization" },
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://psparkle.com/#website",
+      name: "P.S.parkle",
+      url: "https://psparkle.com/",
+      publisher: { "@id": "https://psparkle.com/#organization" },
+      inLanguage: "ja-JP",
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -67,6 +98,10 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
       </body>
     </html>
   );

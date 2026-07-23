@@ -32,6 +32,9 @@ export function CtaPanel({
           LINEで無料体験を相談する
           <span aria-hidden="true">→</span>
         </TrackedLink>
+        <p className="cta-conversion-hint">
+          LINE追加後に「HPを見た・無料体験希望」と送るだけで、相談を始められます。
+        </p>
         <TrackedLink
           href={CALENDAR_URL}
           eventName="calendar_click"

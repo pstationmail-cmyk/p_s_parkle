@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "会場・対応エリア｜守口市駅周辺・オンライン対応",
   description:
     "P.S.parkleは守口市駅を中心に、守口市内の近隣カラオケ店や音楽練習室でボイトレを行います。会場費込み。Zoom・スマートフォン受講にも対応。",
+  alternates: { canonical: "/access/" },
 };
 
 export default function AccessPage() {

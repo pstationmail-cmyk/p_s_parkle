@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "谷口剛気｜守口市のボイストレーナー・講師紹介",
   description:
     "守口市P.S.parkleの講師、谷口剛気のプロフィール。ボイストレーナー・楽曲制作者として、初心者やお子さま一人ひとりに合わせたレッスンを行います。",
+  alternates: { canonical: "/teacher/" },
 };
 
 const achievements = [

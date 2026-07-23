@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "守口市でボイトレを始める前に知っておきたいこと",
   description:
     "守口市でボイトレを始めたい初心者の方向けに、レッスン内容、会場、料金、体験レッスンで確認できることをP.S.parkleが分かりやすく解説します。",
+  alternates: { canonical: "/guide/" },
 };
 
 export default function GuidePage() {

@@ -1680,6 +1680,15 @@ summary {
   font-size: 12px;
 }
 
+.cta-conversion-hint {
+  max-width: 340px;
+  margin: -5px 0 0;
+  color: #c9d4e5;
+  font-size: 11px;
+  line-height: 1.7;
+  text-align: center;
+}
+
 .cta-panel-compact { min-height: 260px; }
 
 /* Footer */

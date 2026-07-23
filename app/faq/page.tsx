@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { CtaPanel } from "@/app/components/CtaPanel";
 import { SiteFooter } from "@/app/components/SiteFooter";
 import { SiteHeader } from "@/app/components/SiteHeader";
 import { faqs } from "@/app/lib/site";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "よくある質問｜料金・会場・子どもの受講について",
   description:
     "守口市P.S.parkleのよくある質問。初心者、子どもの年齢、保護者同席、会場費、Zoom、対応時間、無料体験、入会金などにお答えします。",
+  alternates: { canonical: "/faq/" },
 };
 
 export default function FaqPage() {

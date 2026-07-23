@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "守口市の子ども向けボイトレ｜小学3年生から",
   description:
     "守口市のP.S.parkleは小学3年生以上のお子さまを歓迎する個別ボイトレです。保護者1名同席可能。好きな歌を楽しみながら発声・音程・自信を育てます。無料体験受付中。",
+  alternates: { canonical: "/child/" },
 };
 
 export default function ChildPage() {

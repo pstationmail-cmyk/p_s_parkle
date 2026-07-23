@@ -48,10 +48,13 @@ export default function Home() {
     ],
     serviceType: "ボイストレーニング",
     offers: [
-      { "@type": "Offer", price: "6500", priceCurrency: "JPY", name: "月1回コース" },
-      { "@type": "Offer", price: "12000", priceCurrency: "JPY", name: "月2回コース" },
-      { "@type": "Offer", price: "20000", priceCurrency: "JPY", name: "月4回コース" },
+      { "@type": "Offer", price: "6500", priceCurrency: "JPY", name: "月1回コース", url: "https://psparkle.com/price/" },
+      { "@type": "Offer", price: "12000", priceCurrency: "JPY", name: "月2回コース", url: "https://psparkle.com/price/" },
+      { "@type": "Offer", price: "20000", priceCurrency: "JPY", name: "月4回コース", url: "https://psparkle.com/price/" },
     ],
+    url: "https://psparkle.com/",
+    description: "守口市を中心に、初心者・子ども・カラオケ上達向けの60分個別ボイストレーニングを提供します。",
+    image: "https://psparkle.com/karaoke-lesson.webp",
   };
 
   return (

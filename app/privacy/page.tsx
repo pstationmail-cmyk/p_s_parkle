@@ -5,6 +5,7 @@ import { SiteHeader } from "@/app/components/SiteHeader";
 export const metadata: Metadata = {
   title: "プライバシーポリシー",
   description: "P.S.parkleのプライバシーポリシーです。",
+  robots: { index: false, follow: true },
 };
 
 export default function PrivacyPage() {

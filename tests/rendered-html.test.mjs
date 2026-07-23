@@ -21,6 +21,8 @@ test("exports the P.S.parkle homepage with its core conversion content", async (
   assert.match(html, /6,500/);
   assert.match(html, /https:\/\/lin\.ee\/YqUsydf/);
   assert.match(html, /data-cta="line_click"/);
+  assert.match(html, /application\/ld\+json/);
+  assert.match(html, /HPを見た・無料体験希望/);
 });
 
 test("exports the child, price, teacher, access, FAQ, and privacy pages", async () => {
@@ -30,6 +32,7 @@ test("exports the child, price, teacher, access, FAQ, and privacy pages", async 
     ["teacher/index.html", /谷口 剛気/],
     ["access/index.html", /守口市内全域/],
     ["faq/index.html", /よくある質問/],
+    ["guide/index.html", /守口市でボイトレを始める前に知っておきたいこと/],
     ["privacy/index.html", /プライバシーポリシー/],
   ];
 
