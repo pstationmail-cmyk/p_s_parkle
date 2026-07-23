@@ -1949,7 +1949,7 @@ summary {
 
 .safety-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
@@ -2436,6 +2436,8 @@ summary {
   .feature-grid,
   .step-grid { grid-template-columns: repeat(2, 1fr); }
   .feature-card:last-child { grid-column: 1 / -1; max-width: 52%; margin-inline: auto; }
+  .safety-grid { grid-template-columns: repeat(2, 1fr); }
+  .safety-grid article:last-child { grid-column: 1 / -1; width: calc(50% - 8px); margin-inline: auto; }
   .results-grid { grid-template-columns: 1fr; }
   .results-copy { max-width: 670px; }
   .result-cards { max-width: 690px; }
@@ -2466,6 +2468,8 @@ summary {
   .container { width: min(calc(100% - 30px), var(--container)); }
   .section { padding: 68px 0; }
   .section-heading { margin-bottom: 37px; }
+  .safety-grid { grid-template-columns: 1fr; }
+  .safety-grid article:last-child { grid-column: auto; width: auto; }
   .section-heading h2,
   .reading-copy h2,
   .location-copy h2,

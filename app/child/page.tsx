@@ -105,7 +105,6 @@ export default function ChildPage() {
               <article><span aria-hidden="true">✓</span><h3>保護者の同意のもとで受講</h3><p>お子さまをお預かりするサービスではありません。保護者の方の同意をいただいて受講します。</p></article>
               <article><span aria-hidden="true">✓</span><h3>大人1名まで同席可能</h3><p>初めての場所や先生が不安な場合も、そばでレッスンを見守っていただけます。</p></article>
               <article><span aria-hidden="true">✓</span><h3>会場と集合方法を事前案内</h3><p>守口市内のカラオケ店・音楽練習室から、日時に合う会場を決めてLINEでご案内します。</p></article>
-              <article><span aria-hidden="true">✓</span><h3>無理な勧誘・公開なし</h3><p>体験後の入会を強制しません。顔出しや歌声のSNS公開も、ご本人・保護者の許可なく行いません。</p></article>
             </div>
           </div>
         </section>
