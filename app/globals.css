@@ -1848,6 +1848,45 @@ summary {
   color: var(--muted);
 }
 
+.guide-section { background: var(--white); }
+
+.guide-article {
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.guide-article > p,
+.guide-article li {
+  color: var(--muted);
+  line-height: 2;
+}
+
+.guide-article h2 {
+  margin: 48px 0 14px;
+  color: var(--navy);
+  font-size: 25px;
+  line-height: 1.45;
+}
+
+.guide-article ol {
+  margin: 20px 0;
+  padding-left: 24px;
+}
+
+.guide-summary {
+  margin-top: 44px;
+  padding: 25px 28px;
+  border-left: 4px solid var(--coral);
+  border-radius: 0 14px 14px 0;
+  background: var(--cream);
+}
+
+.guide-summary strong {
+  color: var(--navy);
+}
+
+.guide-summary p { margin: 8px 0 0; color: var(--muted); }
+
 .centered-copy.reading-copy h2 { text-align: center; }
 
 .child-message { background: var(--white); }
